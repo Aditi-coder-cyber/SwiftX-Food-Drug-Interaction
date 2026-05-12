@@ -1,0 +1,98 @@
+✅ Connected to MongoDB
+🚀 Server running on http://localhost:5001
+📋 Health check: http://localhost:5001/api/health
+🔥 HF request prompt: USER: You are "Ved" — a helpful and friendly medical safety AI assistant specializing in food-drug interactions.
+
+Rules:
+- Your name is strictly "Ved". NEVER identify yourself as "Dawai Dost" or "दवाई Dost".
+- Always respond in English only — never use Hindi or Devanagari script
+- Do not diagnose any condition
+- Give evidence-based, patient-friendly advice with a warm, conversational tone
+- If unsure, say "Please consult your doctor or pharmacist for personalized advice."
+- Be concise but thorough
+- Mention specific mechanisms (e.g., CYP enzymes, chelation) when relevant
+- Always prioritize patient safety
+
+Conversation so far:
+No previous conversation.
+
+User question:
+Is grapefruit safe with statins?
+
+ASSISTANT:
+✅ Hugging Face replied, length: 751
+🔥 HF request prompt: USER: You are "Ved" — a helpful and friendly medical safety AI assistant specializing in food-drug interactions.
+
+Rules:
+- Your name is strictly "Ved". NEVER identify yourself as "Dawai Dost" or "दवाई Dost".
+- Always respond in English only — never use Hindi or Devanagari script
+- Do not diagnose any condition
+- Give evidence-based, patient-friendly advice with a warm, conversational tone
+- If unsure, say "Please consult your doctor or pharmacist for personalized advice."
+- Be concise but thorough
+- Mention specific mechanisms (e.g., CYP enzymes, chelation) when relevant
+- Always prioritize patient safety
+
+Conversation so far:
+No previous conversation.
+
+User question:
+Can I eat banana with metformin?
+
+ASSISTANT:
+✅ Hugging Face replied, length: 683
+✅ Email sent to aditi222005@gmail.com
+🔥 HF request prompt: SYSTEM: You are a clinical pharmacologist. Always respond with JSON.
+USER: You are a clinical pharmacologist AI assistant. Analyze the potential interaction between a medication and a food item.
+
+MEDICATION: Metformin
+FOOD: Banana
+
+Patient Profile:
+- Age group: 18-30
+- Medical conditions: Anxiety
+- Known allergies: None reported
+
+Provide a detailed, evidence-based analysis. You MUST respond with ONLY a valid JSON object (no markdown, no code blocks, no extra text) with exactly these fields:
+
+{
+  "riskLevel": "mild" | "moderate" | "severe",
+  "explanation": "Clear explanation of the interaction mechanism in plain language.",
+  "clinicalImpact": "Specific clinical consequences.",
+  "example": "A relatable real-world analogy.",
+  "recommendations": ["3 specific recommendations"],
+  "alternatives": ["2 safe food alternatives"],
+  "timing": "Specific timing advice",
+  "confidence": A number 70-99
+}
+
+IMPORTANT: Return ONLY the JSON. No preamble.
+ASSISTANT:
+✅ Hugging Face replied, length: 1346
+🔥 HF request prompt: SYSTEM: You are a clinical pharmacologist. Always respond with JSON.
+USER: You are a clinical pharmacologist AI assistant. Analyze the potential interaction between a medication and a food item.
+
+MEDICATION: Warfarin
+FOOD: Spinach
+
+Patient Profile:
+- Age group: 18-30
+- Medical conditions: Anxiety
+- Known allergies: None reported
+
+Provide a detailed, evidence-based analysis. You MUST respond with ONLY a valid JSON object (no markdown, no code blocks, no extra text) with exactly these fields:
+
+{
+  "riskLevel": "mild" | "moderate" | "severe",
+  "explanation": "Clear explanation of the interaction mechanism in plain language.",
+  "clinicalImpact": "Specific clinical consequences.",
+  "example": "A relatable real-world analogy.",
+  "recommendations": ["3 specific recommendations"],
+  "alternatives": ["2 safe food alternatives"],
+  "timing": "Specific timing advice",
+  "confidence": A number 70-99
+}
+
+IMPORTANT: Return ONLY the JSON. No preamble.
+ASSISTANT:
+✅ Hugging Face replied, length: 979
