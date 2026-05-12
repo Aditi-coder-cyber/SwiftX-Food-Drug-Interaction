@@ -1,0 +1,14 @@
+# Dependencies
+node_modules
+
+# Build folders
+build
+dist
+.vite
+
+# Environment files
+.env
+server/.env
+
+# OS files
+.DS_Store
